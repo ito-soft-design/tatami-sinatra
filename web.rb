@@ -53,14 +53,15 @@ __END__
     %hr
     %p
       This is a sample site for iOS app 
-      %a{href:"https://itunes.apple.com/us/app/photo-shuriken/id665902441?l=ja&ls=1&mt=8"}Photo Shuriken.
+      %a{href:"http://photoshuriken.com"} Photo Shuriken. 
+      %a{href:"https://itunes.apple.com/us/app/photo-shuriken/id665902441?l=ja&ls=1&mt=8"} (Available on iTunes)
       %br
       You can upload a photo using Photo Shuriken.
       %br
       Select the setting 'Simple sample'.
       %br
       You can see source code of this site on
-      %a{href:"https://github.com/ito-soft-design/tatami-sinatra"}Github.
+      %a{href:"https://github.com/ito-soft-design/tatami-sinatra"} Github.
       %br
       %br
     %form{:action => '/upload', :method => 'POST', :enctype => 'multipart/form-data'}
@@ -75,18 +76,18 @@ __END__
     %hr
     %p
       This is a sample site for iOS app 
-      %a{href:"https://itunes.apple.com/us/app/photo-shuriken/id665902441?l=ja&ls=1&mt=8"}Photo Shuriken.
+      %a{href:"http://photoshuriken.com"} Photo Shuriken. 
+      %a{href:"https://itunes.apple.com/us/app/photo-shuriken/id665902441?l=ja&ls=1&mt=8"} (Available on iTunes)
       %br
       You can upload a photo using Photo Shuriken.
       %br
       Select the setting 'Basic authentication sample'.
       %br
       You can see source code of this site on
-      %a{href:"https://github.com/ito-soft-design/tatami-sinatra"}Github.
+      %a{href:"https://github.com/ito-soft-design/tatami-sinatra"} Github.
       %br
       %br
     %form{:action => '/auth_upload', :method => 'POST', :enctype => 'multipart/form-data'}
       %input{:type => 'file',   :name => 'file'}
       %input{:type => 'submit', :value => 'upload'}
       %input{:type => 'hidden', :name => '_method', :value => 'put'}
-
